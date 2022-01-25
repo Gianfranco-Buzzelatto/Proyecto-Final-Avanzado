@@ -1,0 +1,13 @@
+.container-fluid{
+    height: 100vh !important;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url('./../../../../../assets/images/jan.png');
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+    color: #fff;
+    -webkit-text-stroke: 5px #efde2c;
+}

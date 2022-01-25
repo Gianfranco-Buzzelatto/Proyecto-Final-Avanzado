@@ -1,0 +1,14 @@
+.btn{
+    background-color: #efde2c;
+    color: #000;
+    border-color:#000;
+}
+.btn:hover{
+    background-color: #000;
+    color: #efde2c;
+    border-color: #efde2c
+}
+.text{
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+}

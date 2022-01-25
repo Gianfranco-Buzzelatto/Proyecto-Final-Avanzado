@@ -1,0 +1,39 @@
+   .title{
+       text-align: center;
+       color: #fff;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+   .fas{
+       color: #fff;
+   }
+   .btn{
+       background-color: #000;
+       color: #efde2c;
+       margin-bottom: 20px;
+   }
+
+   .container-fluid{
+    background-color: #000;
+}
+.admin{
+    color: #fff;
+    font-size:150px;
+    display: flex;
+    justify-content:center;
+}
+.formulario{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./../../../assets/images/janb.png);
+    background-position:center;
+    background-size: cover;
+}
+.button{
+    margin-block:  20px;
+    width: 100%;
+    background-color: #000;
+    color: #efde2c;
+    border-color:#efde2c;
+}
+.label{
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+}

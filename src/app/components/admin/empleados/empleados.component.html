@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="col">
+      <div class="row">
+        <table class="table table-hover text-center">
+          <thead class="justify-content-end">
+              <th></th>
+              <th><h1 class="text"> <b> Lista de empleados </b></h1></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th> <a href="/admin/empleados/create" class="btn btn-outline-primary" id="RT"> Agregar empleado <i class="fas fa-user-plus"></i> </a></th>
+          </thead>
+          <thead>
+            <th>id</th>
+            <th>Nombre</th>
+            <th>Apellido</th> 
+            <th>Email</th>
+            <th>Ocupacion</th>
+            <th>Celular</th>
+            <th>Imagen</th>
+            <th>Mostrar en Empleados</th>
+          </thead>
+          <tbody>
+              <tr>
+                <td></td> 
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><img style="border-radius: 50%; object-fit: cover; object-position: center center;" width="150px" height="150px" src="/images/" alt=" no se puede cargar la imagen"></td>
+                <td><i class="far fa-check-circle align-middle"></i></td>
+                <td><a href="/admin/empleados/update/" class="btn btn-success">Editar <i class="fas fa-user-edit"></i> </a></td>
+                <td><a href="/admin/empleados/delete/" class="btn btn-danger">Eliminar <i class="fas fa-user-minus"></i></a></td>
+                <td><td><a href="/admin/usuarios/administrador/" class="btn btn-success">Convertir en admin <i class="fas fa-check-circle"></i></a></td>
+                <td><td><a href="/admin/usuarios/noAdministrador/" class="btn btn-danger">Quitar de admin  <i class="far fa-times-circle"></i></a></td>
+                <td></td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="container " >
+    <div class="col" style="display: flex; justify-content:space-evenly">
+      <a class="btn btn-primary" id="adminFun" href="/admin/usuarios">Usuarios</a>
+      <a class="btn btn-primary" id="adminFun" href="/admin/productos">Productos</a>
+      <a class="btn btn-primary" id="adminFun" href="/admin/categorias">Categorias</a>
+      <a class="btn btn-primary" id="adminFun" href="/admin/empleados">Empleados</a>
+      <a class="btn btn-primary" id="adminFun" href="/admin/mensajes">Mensajes</a>
+    </div>
+  </div>

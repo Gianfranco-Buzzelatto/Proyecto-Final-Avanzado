@@ -1,0 +1,79 @@
+.navbar-light .navbar-nav .nav-link {
+    color:#fff;
+    margin-block: 60px;
+    margin-inline: 100px;
+   }
+.container-fluid {
+    background-color: #000;
+}
+
+.movimiento{
+    transition: 1.5s;
+}
+.movimiento:hover{
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+.btn{
+    border: 3px solid #efde2c;
+    box-shadow: 3px -3px 10px #fff;
+}
+.btn-registro{
+    color: #42b72a;
+    background-color: #000;
+    border-color: #42b72a;
+    margin-block: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    border-radius: 150px;
+}
+.btn-registro:hover{
+    background-color: #42b72a;
+    border-color: #42b72a;
+    color: #000;
+}
+
+.btn-inicioSesion{
+    color: #efde2c;
+    background-color: #000;
+    border-color: #efde2c;
+    margin-block: 15px;
+    margin-right: 15px;
+    border-radius: 150px;
+    font-size: 18px;
+}
+.btn-inicioSesion:hover{
+    background-color: #efde2c;
+    border-color: #000;
+    color: #000;
+}
+.btn-buttons-inicio{
+    margin-top: -10px;
+    color: #efde2c;
+}
+.fa-sign-out-alt {
+    color: #fe2d00;
+   }
+   
+
+.image{
+    margin-left:50px;
+    width: calc(45px);
+    height: calc(45px);
+    border: 2px solid #efde2c;
+    border-radius: 100px;
+}
+.username{
+    color: #fff;
+    margin-left: 10px;
+}
+.visual{
+    width: 100%;
+
+}
+.navbar > div:nth-child(1) {
+ border-top-style: solid;
+ margin-top: -8px;
+ margin-bottom: -8px;
+ border-top-width: 0px;
+}

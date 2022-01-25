@@ -1,0 +1,19 @@
+.container-fluid{
+    background-color: #000;
+}
+.admin{
+    color: #efde2c;
+    font-size:250px;
+    display: flex;
+    justify-content:center;
+}
+.btn{
+    background-color: #000;
+    color: #efde2c;
+    border-color: #efde2c;
+    transition: 1.5s;
+}
+.btn:hover{
+    transform: scale(1.11);
+    transition: 1.5s;
+}

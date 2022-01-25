@@ -1,0 +1,23 @@
+.fondoContact{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./../../../../../assets/images/fondoContact.png);
+    background-size:cover;
+    background-position:center;
+
+}
+.btn{
+    background-color: #efde2c;
+    color: #000;
+    border-color:#000;
+}
+.btn:hover{
+    background-color: #000;
+    color: #efde2c;
+    border-color: #efde2c
+}
+.subs{
+    background-color: #000;
+}
+
+
+    
+   
